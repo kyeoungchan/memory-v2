@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 
 @AutoConfiguration
 @ConditionalOnProperty(name = "memory", havingValue = "on")
-public class MemoryConfig {
+public class MemoryAutoConfig {
 
     @Bean
     public MemoryFinder memoryFinder() {
